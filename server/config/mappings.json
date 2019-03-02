@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "watson_assistant_apikey": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:apikey",
+      "cloudfoundry:$['conversation'][0].credentials.apikey",
+      "env:service_watson_assistant:$.apikey",
+      "env:watson_assistant_apikey",
+      "file:/server/localdev-config.json:$.watson_assistant_apikey"
+    ]
+  },
+  "watson_assistant": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Investment Advisor:url",
+        "cloudfoundry:watson_assistant",
+        "env:watson_assistant_credentials",
+        "file:/server/localdev-config.json:watson_assistant_credentials"
+      ]
+    }
+  },
+  "watson_assistant_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_apikey_description",
+      "cloudfoundry:$['conversation'][0].credentials.iam_apikey_description",
+      "env:service_watson_assistant:$.iam_apikey_description",
+      "env:watson_assistant_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_assistant_iam_apikey_description"
+    ]
+  },
+  "watson_assistant_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_apikey_name",
+      "cloudfoundry:$['conversation'][0].credentials.iam_apikey_name",
+      "env:service_watson_assistant:$.iam_apikey_name",
+      "env:watson_assistant_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_assistant_iam_apikey_name"
+    ]
+  },
+  "watson_assistant_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_role_crn",
+      "cloudfoundry:$['conversation'][0].credentials.iam_role_crn",
+      "env:service_watson_assistant:$.iam_role_crn",
+      "env:watson_assistant_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_assistant_iam_role_crn"
+    ]
+  },
+  "watson_assistant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_serviceid_crn",
+      "cloudfoundry:$['conversation'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_assistant:$.iam_serviceid_crn",
+      "env:watson_assistant_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_assistant_iam_serviceid_crn"
+    ]
+  },
+  "watson_assistant_url": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:url",
+      "cloudfoundry:$['conversation'][0].credentials.url",
+      "env:service_watson_assistant:$.url",
+      "env:watson_assistant_url",
+      "file:/server/localdev-config.json:$.watson_assistant_url"
+    ]
+  },
+  "watson_conversation_apikey": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:apikey",
+      "cloudfoundry:$['7045626d-55e3-4418-be11-683a26dbc1e5'][0].credentials.apikey",
+      "env:service_watson_conversation:$.apikey",
+      "env:watson_conversation_apikey",
+      "file:/server/localdev-config.json:$.watson_conversation_apikey"
+    ]
+  },
+  "watson_conversation": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Investment Advisor:url",
+        "cloudfoundry:watson_conversation",
+        "env:watson_conversation_credentials",
+        "file:/server/localdev-config.json:watson_conversation_credentials"
+      ]
+    }
+  },
+  "watson_conversation_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_apikey_description",
+      "cloudfoundry:$['7045626d-55e3-4418-be11-683a26dbc1e5'][0].credentials.iam_apikey_description",
+      "env:service_watson_conversation:$.iam_apikey_description",
+      "env:watson_conversation_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_conversation_iam_apikey_description"
+    ]
+  },
+  "watson_conversation_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_apikey_name",
+      "cloudfoundry:$['7045626d-55e3-4418-be11-683a26dbc1e5'][0].credentials.iam_apikey_name",
+      "env:service_watson_conversation:$.iam_apikey_name",
+      "env:watson_conversation_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_conversation_iam_apikey_name"
+    ]
+  },
+  "watson_conversation_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_role_crn",
+      "cloudfoundry:$['7045626d-55e3-4418-be11-683a26dbc1e5'][0].credentials.iam_role_crn",
+      "env:service_watson_conversation:$.iam_role_crn",
+      "env:watson_conversation_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_conversation_iam_role_crn"
+    ]
+  },
+  "watson_conversation_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:iam_serviceid_crn",
+      "cloudfoundry:$['7045626d-55e3-4418-be11-683a26dbc1e5'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_conversation:$.iam_serviceid_crn",
+      "env:watson_conversation_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_conversation_iam_serviceid_crn"
+    ]
+  },
+  "watson_conversation_url": {
+    "searchPatterns": [
+      "user-provided:Investment Advisor:url",
+      "cloudfoundry:$['7045626d-55e3-4418-be11-683a26dbc1e5'][0].credentials.url",
+      "env:service_watson_conversation:$.url",
+      "env:watson_conversation_url",
+      "file:/server/localdev-config.json:$.watson_conversation_url"
+    ]
+  },
+  "watson_speech_to_text_apikey": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-ht:apikey",
+      "cloudfoundry:$['bc35fb8c-bc5b-431b-859e-3861771d5843'][0].credentials.apikey",
+      "env:service_watson_speech_to_text:$.apikey",
+      "env:watson_speech_to_text_apikey",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_apikey"
+    ]
+  },
+  "watson_speech_to_text": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Speech to Text-ht:url",
+        "cloudfoundry:watson_speech_to_text",
+        "env:watson_speech_to_text_credentials",
+        "file:/server/localdev-config.json:watson_speech_to_text_credentials"
+      ]
+    }
+  },
+  "watson_speech_to_text_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-ht:iam_apikey_description",
+      "cloudfoundry:$['bc35fb8c-bc5b-431b-859e-3861771d5843'][0].credentials.iam_apikey_description",
+      "env:service_watson_speech_to_text:$.iam_apikey_description",
+      "env:watson_speech_to_text_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_apikey_description"
+    ]
+  },
+  "watson_speech_to_text_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-ht:iam_apikey_name",
+      "cloudfoundry:$['bc35fb8c-bc5b-431b-859e-3861771d5843'][0].credentials.iam_apikey_name",
+      "env:service_watson_speech_to_text:$.iam_apikey_name",
+      "env:watson_speech_to_text_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_apikey_name"
+    ]
+  },
+  "watson_speech_to_text_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-ht:iam_role_crn",
+      "cloudfoundry:$['bc35fb8c-bc5b-431b-859e-3861771d5843'][0].credentials.iam_role_crn",
+      "env:service_watson_speech_to_text:$.iam_role_crn",
+      "env:watson_speech_to_text_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_role_crn"
+    ]
+  },
+  "watson_speech_to_text_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-ht:iam_serviceid_crn",
+      "cloudfoundry:$['bc35fb8c-bc5b-431b-859e-3861771d5843'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_speech_to_text:$.iam_serviceid_crn",
+      "env:watson_speech_to_text_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_serviceid_crn"
+    ]
+  },
+  "watson_speech_to_text_url": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-ht:url",
+      "cloudfoundry:$['bc35fb8c-bc5b-431b-859e-3861771d5843'][0].credentials.url",
+      "env:service_watson_speech_to_text:$.url",
+      "env:watson_speech_to_text_url",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_url"
+    ]
+  },
+  "watson_text_to_speech_apikey": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-r3:apikey",
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.apikey",
+      "env:service_watson_text_to_speech:$.apikey",
+      "env:watson_text_to_speech_apikey",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_apikey"
+    ]
+  },
+  "watson_text_to_speech": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Text to Speech-r3:url",
+        "cloudfoundry:watson_text_to_speech",
+        "env:watson_text_to_speech_credentials",
+        "file:/server/localdev-config.json:watson_text_to_speech_credentials"
+      ]
+    }
+  },
+  "watson_text_to_speech_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-r3:iam_apikey_description",
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.iam_apikey_description",
+      "env:service_watson_text_to_speech:$.iam_apikey_description",
+      "env:watson_text_to_speech_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_apikey_description"
+    ]
+  },
+  "watson_text_to_speech_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-r3:iam_apikey_name",
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.iam_apikey_name",
+      "env:service_watson_text_to_speech:$.iam_apikey_name",
+      "env:watson_text_to_speech_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_apikey_name"
+    ]
+  },
+  "watson_text_to_speech_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-r3:iam_role_crn",
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.iam_role_crn",
+      "env:service_watson_text_to_speech:$.iam_role_crn",
+      "env:watson_text_to_speech_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_role_crn"
+    ]
+  },
+  "watson_text_to_speech_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-r3:iam_serviceid_crn",
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_text_to_speech:$.iam_serviceid_crn",
+      "env:watson_text_to_speech_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_serviceid_crn"
+    ]
+  },
+  "watson_text_to_speech_url": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-r3:url",
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.url",
+      "env:service_watson_text_to_speech:$.url",
+      "env:watson_text_to_speech_url",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_url"
+    ]
+  }
+}
